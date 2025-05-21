@@ -1,9 +1,12 @@
 Real-World Application: In-Memory Database Indexing with AVL Tree
 In-Memory Database Indexing with AVL Trees – Simplified
  What’s the Problem?
-In-memory databases like Redis or MemSQL store everything in your computer’s RAM for speed. But they still need to find and update data quickly.
+In-memory databases like Redis or MemSQL store everything in your computer’s RAM for speed.
+But they still need to find and update data quickly.
 
-If they use a normal binary search tree (BST) and the data is added in a bad order (like sorted numbers), the tree can become very unbalanced — like a long chain. This makes it slow, because searching becomes like checking one item at a time.
+If they use a normal binary search tree (BST) and the data is added in a bad order (like sorted numbers),
+the tree can become very unbalanced — like a long chain. 
+This makes it slow, because searching becomes like checking one item at a time.
 
 What’s the Solution?
 Use an AVL Tree instead of a regular tree!
